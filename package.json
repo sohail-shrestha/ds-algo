@@ -1,0 +1,22 @@
+{
+  "name": "ds-algo",
+  "version": "1.0.0",
+  "description": "Package to run and test ds and algo",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "test": "jest",
+    "build": "tsc --project ./",
+    "clear": "rm -rf ./build"
+  },
+  "author": "Sohail Shrestha",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.10.5",
+    "typescript": "^5.4.5"
+  }
+}
