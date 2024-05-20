@@ -9,12 +9,8 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "outDir": "./build/"          
+    "outDir": "./build/"
   },
-  "include": [
-    "src/**/*", "tests/**/*"
-  ],
+  "include": ["src/**/*", "tests/**/*"],
   "exclude": ["node_modules"]
-  
-  
 }

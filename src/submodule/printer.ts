@@ -1,6 +1,6 @@
 const printer = () => {
-    console.log("Hello world")
-    const items =  [1,2]
-}
+  console.log("Hello world");
+  const items = [1, 2];
+};
 
-export {printer}
+export { printer };
