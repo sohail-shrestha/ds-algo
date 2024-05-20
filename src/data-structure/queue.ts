@@ -1,17 +1,14 @@
 const Queue = <T>(initialQueue: Array<T> = []) => {
     const queue = [...initialQueue];
-    const initalIndex = 0;
-    const finalIndex = queue.length;
-
-    const peek = () => {
+    const peek = (): T | undefined => {
         return queue[queue.length -1]
     }
 
-    const push = (item: T) => {
+    const push = (item: T): void => {
         queue.push(item)
     }
 
-    const pop = () => {
+    const pop = (): T | undefined => {
        return queue.shift()
     }
 
