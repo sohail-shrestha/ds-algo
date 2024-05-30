@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx src/index.ts",
-    "test": "jest",
+    "test": "jest --verbose",
     "build": "tsc --project ./",
     "clear": "rm -rf ./build"
   },
