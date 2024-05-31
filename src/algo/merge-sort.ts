@@ -1,7 +1,7 @@
 
-type QuickSortType = (array: Array<number>) => Array<number>;
+type MergeSortType = (array: Array<number>) => Array<number>;
 
-const quickSort: QuickSortType =  (array: Array<number>) => {
+const mergeSort: MergeSortType =  (array: Array<number>) => {
     if(array.length <= 1) return array
    
     const left: Array<number> = [];
@@ -18,9 +18,9 @@ const quickSort: QuickSortType =  (array: Array<number>) => {
             right.push(element)
         }
     }
-    return [...quickSort(left), pivot, ...quickSort(right)]
+    return [...mergeSort(left), pivot, ...mergeSort(right)]
 
 }
 
-export { quickSort };
+export { mergeSort };
 

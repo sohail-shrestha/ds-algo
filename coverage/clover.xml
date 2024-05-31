@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1717082621180" clover="3.2.0">
-  <project timestamp="1717082621180" name="All files">
-    <metrics statements="53" coveredstatements="53" conditionals="11" coveredconditionals="11" methods="5" coveredmethods="5" elements="69" coveredelements="69" complexity="0" loc="53" ncloc="53" packages="2" files="2" classes="2"/>
+<coverage generated="1717127696841" clover="3.2.0">
+  <project timestamp="1717127696841" name="All files">
+    <metrics statements="69" coveredstatements="69" conditionals="16" coveredconditionals="16" methods="7" coveredmethods="7" elements="92" coveredelements="92" complexity="0" loc="69" ncloc="69" packages="3" files="3" classes="3"/>
     <package name="algo">
       <metrics statements="25" coveredstatements="25" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
-      <file name="quicksort.ts" path="/Users/sohailshrestha/Documents/Code/personal/ds-algo/src/algo/quicksort.ts">
+      <file name="merge-sort.ts" path="/Users/sohailshrestha/Documents/Code/personal/ds-algo/src/algo/merge-sort.ts">
         <metrics statements="25" coveredstatements="25" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -65,6 +65,28 @@
         <line num="26" count="10" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
         <line num="28" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="16" coveredstatements="16" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <file name="array-swap.ts" path="/Users/sohailshrestha/Documents/Code/personal/ds-algo/src/utils/array-swap.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
       </file>
     </package>
   </project>
