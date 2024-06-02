@@ -6,7 +6,7 @@ const validate = <T>(array: Array<T>, i: number, j: number) => {
 }
 
 const swap: Swap = <T>(array: Array<T>, i: number, j: number) => {
-    validate(array, i, j)
+    validate(array, i, j);
     const temp = array[i];
     array[i] = array[j];
     array[j] = temp;

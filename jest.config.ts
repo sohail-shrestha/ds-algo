@@ -74,7 +74,8 @@ const config: Config = {
   moduleNameMapper: {
     "^data-structure/(.*)$": "<rootDir>/src/data-structure/$1",
     "^algo/(.*)$": "<rootDir>/src/algo/$1",
-    "^utils/(.*)$": "<rootDir>/src/utils/$1"
+    "^utils/(.*)$": "<rootDir>/src/utils/$1",
+    "^leetcode/(.*)$": "<rootDir>/src/leetcode/$1"
   },
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader

@@ -17,4 +17,10 @@ describe("Test Array Swap", () => {
         expect(() => swap(input, 2,3)).toThrow("Index out of bounds.")
 
     })
+
+    test("check swapping same index.", () => {
+        const input: Array<number> = [1,2,3]
+        expect(swap(input, 1,1)).toEqual([1,2,3])
+
+    })
 })
